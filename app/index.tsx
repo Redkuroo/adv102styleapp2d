@@ -5,9 +5,16 @@ export default function Index() {
     <View
     >
       <Text>Netflix</Text>
-  <Image 
-    source={require('../assets/images/netflix.png')} 
-    />
-    </View>
-  );
-}
+    <Image 
+      source={require('../assets/images/netflix.png')} 
+      />
+      <Image 
+      source={require('../assets/images/dl.png')} 
+      /><Image 
+      source={require('../assets/images/bell.png')} 
+      />
+     <Text>Netflix</Text>
+
+      </View>
+    );
+  }
