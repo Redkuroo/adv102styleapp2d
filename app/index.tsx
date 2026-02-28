@@ -13,7 +13,7 @@ export default function Index() {
       /><Image 
       source={require('../assets/images/bell.png')} 
       />
-     <Text>Netflix</Text>
+     <Text style={{color: 'white', fontSize: 20, fontWeight: 'bold'}}>Home</Text>
 
       </View>
     );
